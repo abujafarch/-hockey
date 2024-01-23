@@ -1,0 +1,12 @@
+.after-content::after{
+    content: '';
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 10;
+    top: 10;
+    background-color: white;
+    border-radius: 50%;
+    color: #ff4240;
+    z-index: -10;
+}
